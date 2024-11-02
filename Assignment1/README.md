@@ -15,3 +15,10 @@ g++ producer.cpp -o producer
 g++ consumer.cpp -o consumer
 ./producer && ./consumer
 ```
+## Example Output
+```code
+Producer data: 10
+Producer data: 11
+Consumer is consuming data: 10
+Consumer is consuming data: 11
+```
