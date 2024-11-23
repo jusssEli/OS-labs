@@ -115,7 +115,7 @@ bool safeCheck( int processArr[], int available[], int max[][resources],
 
     }
     // If system is in safe state, print safe state
-    cout << "THE UMP'S CALL IS ... SAFE!!!!!.\nSafe"
+    cout << "THE UMP'S CALL IS ... SAFE!!!!!\nSafe"
          " sequence is: ";
     for (int i = 0; i < processes ; i++)
         cout << safety[i] << " ";
