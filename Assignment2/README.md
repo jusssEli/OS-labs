@@ -3,7 +3,7 @@
 By Elijah Rogers
 
 ## Execution
-Before running the program, you will need to compile it. Simply run `g++ bankers.cpp ` in the terminal. 
+Before running the program, you will need to compile it. Simply run `g++ bankersAlgo.cpp ` in the terminal. 
 Once you compile it, you should have a singular output file `a.out` which you can subsequently run `./a.out`
 
 ## Output
@@ -22,6 +22,7 @@ Data table provided:
 In instance.txt, the table was created by using spaces as a separation key.
 
 ## Explaination
-The project was to implement the banker's alorithm through a table provided, but loaded in a separate text file. The file consisted of processes, allocated data, maximum number of resources and the available resources. A fixed number of processes and resources was also given. The file needed to be read in and the code to successfully implement the bankers algorithm to determine if the given table was in a safe state or not.
+The project was to implement the banker's alorithm through a table provided, but loaded in a separate text file. The file consisted of processes, allocated memory, maximum number of resources and the available resources. A fixed number of processes and resources were also given. The file needed to be read and the code to successfully implement the bankers algorithm to determine if the given table was in a safe state or not.
 
-## Problems and Lessons Learned
+## Now, What Did We Learn
+I found online resources to compare with Dr. Guam's slides from class to help implement the algorithm easier. I learned to use a 2d array to implement a matrix within c++ to make a table as well. The most difficult part as remembering how I needed to read in from a file and store the contents within the table.
